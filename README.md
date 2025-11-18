@@ -1,4 +1,6 @@
 Task 1.1:
+-The default service account has almost no permissions on pods or deployments etc. It can only do self check actions. It can also access some Kubernetes resources like api or the version. The reason for this is so that it follows the principle of least privilege.
+
 Question: It doesn't have many permissions to enforce the principle of least privilege. The default service account can only create self subject review objects and get cluster endpoints. It can't read, list, or change anything such as the pods and deployments.
 
 Task 1.2:
